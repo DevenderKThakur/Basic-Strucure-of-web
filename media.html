@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>new webpage</title>
+    </head>
+    <style>
+        /* this is to tell if min width of the device is 600px then apply the following change  */
+       @media(min-width:600px){
+          body{
+            background-color: red;
+          }
+       }
+       /* if the max width of the screen is 599px then apply the following changes  */
+       @media(max-width:599px){
+        body{
+            background-color: blue;
+            color: white;
+        }
+       }
+       body{
+        /* it brings all the element in the same line of */
+        display: flex;  
+        /* it wrap the flexbox according to the width of the screen */
+        flex-wrap: wrap;
+       }
+    </style>
+    <body>
+        this is to perform the media querries
+    </body>
+    <script>
+        
+    </script>
+</html>
